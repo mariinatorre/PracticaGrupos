@@ -41,7 +41,7 @@ public class Peso {
 		}
 	}
 	
-	public void conversorGramos() {
+	public void convertirAGramos() {
 		if (this.unidadPeso.equals("kilogramos")) {
 			this.valorPeso = this.valorPeso/GRAMO_KILOGRAMO;
 			this.unidadPeso = "gramos";
@@ -51,7 +51,7 @@ public class Peso {
 		}
 	}
 	
-	public void conversorKilogramos() {
+	public void convertirAKilogramos() {
 		if (this.unidadPeso.equals("gramos")) {
 			this.valorPeso = this.valorPeso*GRAMO_KILOGRAMO;
 			this.unidadPeso = "kilogramos";
@@ -61,7 +61,7 @@ public class Peso {
 		}
 	}
 	
-	public void conversorLibras() {
+	public void convertirALibras() {
 		if (this.unidadPeso.equals("gramos")) {
 			this.valorPeso = this.valorPeso*GRAMO_LIBRA;
 			this.unidadPeso = "libras";
