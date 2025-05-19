@@ -45,7 +45,7 @@ public class Peso {
 		if (this.unidadPeso.equals("kilogramos")) {
 			this.valorPeso = this.valorPeso/GRAMO_KILOGRAMO;
 			this.unidadPeso = "gramos";
-		} else if (this.unidadPeso.equals("libra")) {
+		} else if (this.unidadPeso.equals("libras")) {
 			this.valorPeso = this.valorPeso/GRAMO_LIBRA;
 			this.unidadPeso = "gramos";
 		}
